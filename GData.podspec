@@ -30,4 +30,7 @@ Clone of Googles GData as they appear to have removed the podspec from theirs wh
 
   s.source_files = 'Source/**/*.{h,m}'
 
+  s.dependency 'GTMHTTPFetcher'
+  s.dependency 'gtm-oauth2', '~> 1.1'
+  s.xcconfig "HEADER_SEARCH_PATHS": "\"$(SDKROOT)/usr/include/libxml2\""
 end
