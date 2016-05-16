@@ -28,6 +28,6 @@ Clone of Googles GData as they appear to have removed the podspec from theirs wh
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GData/Classes/**/*'
+  s.source_files = 'Source/*.{h,m}'
 
 end
