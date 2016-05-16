@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GData"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "Copy of Googles GData XML Library with fixed podspec"
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Clone of Googles GData as they appear to have removed the podspec from theirs wh
   s.homepage         = "https://github.com/afc1903/GData"
   s.license          =  { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { "David Cumming" => "david.cumming@mokosocialmedia.com" }
-  s.source           = { :git => "https://github.com/afc1903/GData.git", :tag => "0.0.1" }
+  s.source           = { :git => "https://github.com/afc1903/GData.git", :tag => "0.0.2" }
 
   s.ios.deployment_target = '8.0'
 
